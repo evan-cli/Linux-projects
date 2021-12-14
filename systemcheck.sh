@@ -1,6 +1,6 @@
  #!/bin/bash
 
-#This shell script allows you to get a quick glance of Linux system's running processes, network, and disk usage. 
+#This shell script allows you to get a quick glance of a Linux system's running processes, network, and disk usage. 
 #The script utilizes the htop command (an interactive processes viewer) and iftop (monitor's the bandwidth of active network interfaces).
 #iftop requires the libpcap and libncurses packages. These are usually preinstalled with many Linux distrubutions. 
 #Both htop and iftop are required to run the script. The user will be prompted for their password if they are not currently operating as the root user. Installation will commence. 
@@ -60,8 +60,6 @@ case $answer in
 esac
 }
 
-
-#more info on the network
 
 #PROMPT for user input; primary function 
 
