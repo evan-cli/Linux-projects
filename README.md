@@ -1,4 +1,4 @@
-# Linux-projects
+# Linux-system-check
 
 This shell script allows you to get a quick glance of a Linux system's running processes, network, and disk usage. 
 The script utilizes the htop command (an interactive processes viewer) and iftop (monitor's the bandwidth of active network interfaces). 
